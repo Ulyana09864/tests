@@ -53,7 +53,7 @@ next_question.addEventListener("click", f_next_question);
   }
 
 function answers(k){
-  query ='https://innovations.kh.ua/quiz/list/?author_id=72&n='+k;
+  query ='https://innovations.kh.ua/quiz/list/?author_id=73&n='+k;
   console.log(query);
   fetch(query).then(response => response.json())
   .then(function (quiz) {
